@@ -9,7 +9,7 @@
     <link rel="icon" href="../img/iconoyoutube.png" type="img/png">
   </head>
   <body class="bg-white">
-    <div class="container-fluid bg-white sticky-top mb-2 sticky-top">
+    <div class="container-fluid bg-white sticky-top">
       <div class="row">
 
         <div class="col-2 pt-2 bg-white">
@@ -20,7 +20,7 @@
         <div class="col-7 pt-3 text-center bg-white">
           <div class="btn-group">
             <input class="form border" type="text" placeholder="Buscar" style="width: 500px;">
-            <button class="btn btn-light border"><i class="fas fa-search"></i></button>
+            <button class="btn btn-light border" style="height: 35px;"><i class="fas fa-search text-secondary" style="width: 55px;"></i></button>
           </div>
         </div>
         
@@ -36,11 +36,13 @@
     <div class="container-fluid">
       <div class="row">
         
-        <div class="d-flex col-2 bg-white nav">
-          <div id="sidebar-container" class="bg-white">
+        <div class="d-flex col-2 bg-white nav ">
+          <div id="sidebar-container" class="bg-white overflow-auto position-fixed" style="height: 600px;">
             <div class="menu bg-white border-bottom">
               <a href="../index.html" class="btn btn-white"><i class="fas fa-home"></i> Principal</a>
+              <br>
               <a href="tendencias.html" class="btn btn-white"><i class="fab fa-gripfire text-danger"></i> Tendencias</a>
+              <br>
               <a href="suscripciones.html" class="btn btn-white"><i class="fas fa-folder-open"></i> Suscripciones</a>
             </div>
             <div class="menu bg-white border-bottom">
@@ -48,7 +50,7 @@
               <a href="historial.html" class="btn btn-white "><i class="fas fa-history"></i> Historial</a>
             </div>
             <div class="menu bg-white border-bottom">
-              <p class="d-block bg-white pl-3 mt-2">Accede para dar "me gusta" a los videos, realizar comentarios y suscribirte.</p>
+              <p class="d-block bg-white pl-2 mt-2">Accede para dar "me gusta"<br> a los videos, realizar <br>comentarios y suscribirte.</p>
               <a href="https://accounts.google.com/ServiceLogin/signinchooser?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Des-419%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=es-419&ec=65620&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="btn btn-outline-primary ml-2 mb-3"> Acceder</a>
             </div>
             <div class="menu bg-white border-bottom">
